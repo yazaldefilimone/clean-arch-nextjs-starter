@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint lint"
+    "lint": "eslint lint --max-warnings=0"
   },
   "dependencies": {
     "next": "12.2.3",
@@ -21,8 +21,12 @@
     "@typescript-eslint/parser": "^5.31.0",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
+    "prettier": "2.7.1",
     "typescript": "4.7.4"
   }
 }
