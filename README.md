@@ -1,34 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJs Boilerplate with clean architecture TDD
+ <p align="center">
+  <img src="https://img.shields.io/static/v1?label=Clean-Arch TDD NextJs&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />
+  <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=110C2F">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFFFFF&labelColor=110C2F">
+  <img alt="Stars" src="https://img.shields.io/github/stars/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate?color=FFFFFF&labelColor=110C2F">
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate?color=FFFFFF&labelColor=110C2F">
+</p>
 
-## Getting Started
+Simple Boilerplate with NextJs, Reactjs, TypeScript, TDD, Clean Architecture, and more.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
+- ⚡️ Next.js 12
+- ⚛️ React 18
+- ⛑ TypeScript
+- 📏 ESLint — To find and fix problems in your code
+- 💖 Prettier — Code Formatter for consistent style
+- 🐶 Husky — For running scripts before committing
+- 🚓 Commitlint — To make sure your commit messages follow the convention
+- 🖌 Renovate — To keep your dependencies up to date
+- 🚫 lint-staged — Run ESLint and Prettier against staged Git files
+- 👷 PR Workflow — Run Type Check & Linters on Pull Requests
+- ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
+- 🗂 Path Mapping — Import components or images using the `~/` prefix
+
+## Quick Start
+
+The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
+
+```
+# yarn
+yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+# npm
+npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+# pnpm
+pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To start the project locally, run:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+  npm dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Open `http://localhost:3000` with your browser to see the result.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js >= 12.22.0
+- npm our yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Directory Structure
 
-## Deploy on Vercel
+- [`.husky`](.husky) — Husky configuration and hooks.<br>
+- [`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
+- [`src`](./src) — Application source code, including pages, components, styles.<br>
+- [`test`](./test) — Application source code testing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Scripts
+- `yarn/npm dev` — Starts the application in development mode at `http://localhost:3000`.
+- `yarn/npm build` — Creates an optimized production build of your application.
+- `yarn/npm start` — Starts the application in production mode.
+- `yarn/npm lint` — Runs ESLint for all files in the `src` directory.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Path Mapping
+
+TypeScript are pre-configured with custom path mappings. To import components or files, use the `~/` prefix.
+
+```tsx
+import { Button } from '~/components/Button';
+
+// To import images or other files from the public folder
+import avatar from '~/public/avatar.png';
+```
