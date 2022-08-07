@@ -22,7 +22,7 @@ Simple Boilerplate with NextJs, Reactjs, TypeScript, TDD, Clean Architecture, an
 - 👷 PR Workflow — Run Type Check & Linters on Pull Requests
 - ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `~/` prefix
-- ‽ Either Error Handler - An Either is basically a container for a value that might be an error. With an Either we can apply transformations to the contained value without having to worry whether it is an error or not until we reach a point in our code where we want to handle the error, should it have happened.08
+- ‽ Either Error Handler - For error handling. (Either is designed to hold either a left or a right value but never both).
 
 ## Quick Start
 
@@ -76,3 +76,13 @@ import { Button } from '~/components/Button';
 // To import images or other files from the public folder
 import avatar from '~/public/avatar.png';
 ```
+
+
+<a id="license"></a>
+
+## License
+
+[MIT](https://github.com/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate/blob/main/LICENSE) Project License
+
+Creator with 💙 by [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
+
