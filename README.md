@@ -1,4 +1,3 @@
-# NextJs Boilerplate with clean architecture TDD
  <p align="center">
   <img src="https://img.shields.io/static/v1?label=Clean-Arch TDD NextJs&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />
   <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=110C2F">
@@ -41,6 +40,8 @@ To start the project locally, run:
 
 ```bash
   npm dev
+  our
+  yarn dev
 ```
 
 Open `http://localhost:3000` with your browser to see the result.
