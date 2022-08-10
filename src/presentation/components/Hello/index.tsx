@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React, { Fragment, FunctionComponent } from 'react';
 import { Hello as HelloEntity } from '~/domain/entities';
 import { IHelloUseCase } from '~/domain/usecases';
