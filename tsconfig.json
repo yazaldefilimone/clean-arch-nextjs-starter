@@ -19,18 +19,24 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-  "~/*": ["./src/*"],
-      "~/tests/*": ["./tests/*"],
-      "~/public/*": ["./public/*"]
-    }
+      "~/*": [
+        "./src/*"
+      ],
+      "~/tests/*": [
+        "./tests/*"
+      ],
+      "~/public/*": [
+        "./public/*"
+      ]
+    },
+    "isolatedModules": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-
+    "**/*.tsx"
   ],
   "exclude": [
-    "node_modules",
+    "node_modules"
   ]
 }
