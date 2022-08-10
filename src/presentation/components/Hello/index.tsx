@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React, { Fragment, FunctionComponent } from 'react';
 import { Hello as HelloEntity } from '~/domain/entities';
 import { IHelloUseCase } from '~/domain/usecases';
-import styles from './styles.module.css';
+import * as Styled from './styles';
 
 type HelloInput = {
   helloUseCase: IHelloUseCase;
@@ -27,31 +27,20 @@ export const Hello: FunctionComponent<HelloInput> = ({ helloUseCase }) => {
   });
 
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Nextjs App - Clean Architecture Tdd Boilerplate</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <div className={styles.wrapper}>
-          {error && <h1>{error}</h1>}
-          {hello && (
-            <Fragment>
-              <h1>{hello.desc}</h1>
-              <p>
-                Created with 💜 By{' '}
-                <a href={hello.repo} target="_blank" rel="noopener noreferrer">
-                  {hello.author}
-                </a>
-              </p>
-            </Fragment>
-          )}
-        </div>
-        ;
-      </main>
-
-      <footer className={styles.footer}></footer>
-    </div>
+    <Styled.Wrapper>
+      {error && <h1>{error}</h1>}
+      {hello && (
+        <Fragment>
+          <Styled.Title>{hello.desc}</Styled.Title>
+          <Styled.Description>
+            Created with 💜 By{' '}
+            <a href={hello.repo} target="_blank" rel="noopener noreferrer">
+              {hello.author}
+            </a>
+          </Styled.Description>
+        </Fragment>
+      )}
+      <Styled.Illustration src="/assets/img/hero.svg" />
+    </Styled.Wrapper>
   );
 };
