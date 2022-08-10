@@ -71,7 +71,7 @@ Open `http://localhost:3000` with your browser to see the result.
 TypeScript are pre-configured with custom path mappings. To import components or files, use the `~/` prefix.
 
 ```tsx
-import { Button } from '~/components/Button';
+import { Button } from '~/presentation/components/Button';
 
 // To import images or other files from the public folder
 import avatar from '~/public/avatar.png';
