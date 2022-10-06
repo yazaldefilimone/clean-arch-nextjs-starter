@@ -1,1 +1,1 @@
-export * from './hello-usecase';
+export * from './info-usecase';

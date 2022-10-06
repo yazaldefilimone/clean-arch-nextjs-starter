@@ -1,1 +1,1 @@
-export * from './Ihello-storage';
+export * from './Iinfo-storage';
