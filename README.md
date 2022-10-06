@@ -13,7 +13,7 @@ Simple Boilerplate with NextJs, Reactjs, TypeScript, TDD, Clean Architecture, an
 - ⚡️ Next.js 12
 - ⚛️ React 18
 - ⛑ TypeScript
-- ⛑ Styled Components - CssInJs for component styling
+- ✨ Styled Components - CssInJs for component styling
 - 📏 ESLint — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
