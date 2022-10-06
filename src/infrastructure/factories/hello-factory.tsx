@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react';
-import { HelloUseCase } from '~/data/usecases';
-import { Hello } from '~/presentation/components';
-import { HelloStorage } from '~/infra/services';
+import { HelloUseCase } from '~/application/usecases';
+import { Hello } from '~/infrastructure/ui/components/Hello';
+import { HelloStorage } from '~/infrastructure/services';
 
 export const HelloFactory: FunctionComponent = () => {
   const helloStorage = new HelloStorage();

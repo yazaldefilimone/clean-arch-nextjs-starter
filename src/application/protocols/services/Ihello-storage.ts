@@ -1,5 +1,5 @@
 import { Hello } from '~/domain/entities';
-import { Either } from '~/shared/error-handler/either';
+import { Either } from '~/shared/either';
 
 export interface IHelloStorage {
   get: () => IHelloStorage.output;

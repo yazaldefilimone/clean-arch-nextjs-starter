@@ -1,5 +1,5 @@
-import { right } from '~/shared/error-handler/either';
-import { IHelloStorage } from '~/data/protocols/services';
+import { right } from '~/shared/either';
+import { IHelloStorage } from '~/application/protocols/services';
 
 export class HelloStorage implements IHelloStorage {
   async get(): IHelloStorage.output {

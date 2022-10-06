@@ -1,6 +1,6 @@
 import { IHelloUseCase } from '~/domain/usecases/Ihelo-usecase';
-import { right, left } from '~/shared/error-handler/either';
-import { IHelloStorage } from '~/data/protocols/services';
+import { right, left } from '~/shared/either';
+import { IHelloStorage } from '~/application/protocols/services';
 
 export class HelloUseCase implements IHelloUseCase {
   private readonly helloStorage: IHelloStorage;

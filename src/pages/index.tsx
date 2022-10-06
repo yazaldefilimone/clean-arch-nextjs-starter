@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
-import { HelloFactory } from '~/infra/factories';
+import { HomeTemplete } from '~/infrastructure/ui/templetes/Home';
 
-const Home: NextPage = () => <HelloFactory />;
+const Home: NextPage = () => <HomeTemplete />;
 
 export default Home;

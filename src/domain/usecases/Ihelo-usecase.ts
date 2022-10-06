@@ -1,4 +1,4 @@
-import { Either } from '~/shared/error-handler/either';
+import { Either } from '~/shared/either';
 import { Hello } from '~/domain/entities';
 
 export interface IHelloUseCase {

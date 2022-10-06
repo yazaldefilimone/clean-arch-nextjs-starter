@@ -1,6 +1,6 @@
-import { right } from '~/shared/error-handler/either';
-import { IHelloStorage } from '~/data/protocols/services';
-import { HelloUseCase } from '~/data/usecases';
+import { right } from '~/shared/either';
+import { IHelloStorage } from '~/application/protocols/services';
+import { HelloUseCase } from '~/application/usecases';
 
 class HelloStorageMock implements IHelloStorage {
   async get(): IHelloStorage.output {
