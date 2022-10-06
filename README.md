@@ -13,6 +13,7 @@ Simple Boilerplate with NextJs, Reactjs, TypeScript, TDD, Clean Architecture, an
 - ⚡️ Next.js 12
 - ⚛️ React 18
 - ⛑ TypeScript
+- ⛑ Styled Components - CssInJs for component styling
 - 📏 ESLint — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
@@ -21,6 +22,7 @@ Simple Boilerplate with NextJs, Reactjs, TypeScript, TDD, Clean Architecture, an
 - ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `~/` prefix
 - ‽ Either Error Handler - For error handling. (Either is designed to hold either a left or a right value but never both).
+
 
 ## Quick Start
 
@@ -74,6 +76,9 @@ import { Button } from '~/presentation/components/Button';
 import avatar from '~/public/avatar.png';
 ```
 
+**NOTE:**
+As many use styled-component
+I added the settings for it, but you can remove it at: `src/pages/_document.tsx` and remove global styles in: `src/shared/styles/globals.ts`
 
 <a id="license"></a>
 
