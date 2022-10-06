@@ -1,3 +1,8 @@
+
+<p align="center" >
+<img src="https://user-images.githubusercontent.com/26466516/141659551-d7ba5630-7200-46fe-863b-87818dae970a.png" />
+<P/>
+
  <p align="center">
   <img src="https://img.shields.io/static/v1?label=Clean-Arch TDD NextJs&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />
   <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=110C2F">
@@ -5,11 +10,12 @@
   <img alt="Stars" src="https://img.shields.io/github/stars/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate?color=FFFFFF&labelColor=110C2F">
   <img alt="Languages" src="https://img.shields.io/github/languages/count/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate?color=FFFFFF&labelColor=110C2F">
 </p>
-
-Simple Boilerplate with NextJs, Reactjs, TypeScript, TDD, Clean Architecture, and more.
+<p align="center" >
+Clean architecture starter for Next.js with TypeScript. <br>
+All the tools you need to build your nextxroject.
+<P/>
 
 ## Features
-
 - ⚡️ Next.js 12
 - ⚛️ React 18
 - ⛑ TypeScript
@@ -30,9 +36,9 @@ The best way to start with this template is using [Create Next App](https://next
 
 ```
 # yarn
-yarn create next-app -e https://github.com/yazaldefilimonepinto/clean-arch-nextjs-tdd-starter
+yarn create next-app -e https://github.com/yazaldefilimonepinto/clean-arch-nextjs-starter
 # npm
-npx create-next-app -e https://github.com/yazaldefilimonepinto/clean-arch-nextjs-tdd-starter
+npx create-next-app -e https://github.com/yazaldefilimonepinto/clean-arch-nextjs-starter
 ```
 
 ### Development
@@ -84,5 +90,5 @@ I added the settings for it, but you can remove it at: `src/pages/_document.tsx`
 
 ## License
 
-[MIT](https://github.com/yazaldefilimonepinto/clean-arch-nextjs-tdd-starter/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
+[MIT](https://github.com/yazaldefilimonepinto/clean-arch-nextjs-starter/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
 
