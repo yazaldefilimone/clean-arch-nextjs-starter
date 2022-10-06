@@ -17,9 +17,7 @@ Simple Boilerplate with NextJs, Reactjs, TypeScript, TDD, Clean Architecture, an
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
 - 🚓 Commitlint — To make sure your commit messages follow the convention
-- 🖌 Renovate — To keep your dependencies up to date
 - 🚫 lint-staged — Run ESLint and Prettier against staged Git files
-- 👷 PR Workflow — Run Type Check & Linters on Pull Requests
 - ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `~/` prefix
 - ‽ Either Error Handler - For error handling. (Either is designed to hold either a left or a right value but never both).
@@ -30,9 +28,9 @@ The best way to start with this template is using [Create Next App](https://next
 
 ```
 # yarn
-yarn create next-app -e https://github.com/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate
+yarn create next-app -e https://github.com/yazaldefilimonepinto/clean-arch-nextjs-tdd-starter
 # npm
-npx create-next-app -e https://github.com/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate
+npx create-next-app -e https://github.com/yazaldefilimonepinto/clean-arch-nextjs-tdd-starter
 ```
 
 ### Development
@@ -58,7 +56,6 @@ Open `http://localhost:3000` with your browser to see the result.
 - [`.husky`](.husky) — Husky configuration and hooks.<br>
 - [`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
 - [`src`](./src) — Application source code, including pages, components, styles.<br>
-- [`test`](./test) — Application source code testing.
 
 ### Scripts
 - `yarn/npm dev` — Starts the application in development mode at `http://localhost:3000`.
@@ -82,7 +79,5 @@ import avatar from '~/public/avatar.png';
 
 ## License
 
-[MIT](https://github.com/yazaldefilimonepinto/clean-architecture-nextjs-tdd-boilerplate/blob/main/LICENSE) Project License
-
-Creator with 💙 by [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
+[MIT](https://github.com/yazaldefilimonepinto/clean-arch-nextjs-tdd-starter/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
 
